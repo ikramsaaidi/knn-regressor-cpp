@@ -1,0 +1,10 @@
+Open cmd and run these 3 commands one at a time:
+
+Command 1:
+cd /d c:\Users\saaid\OneDrive\Desktop\KNNRegressor
+
+Command 2:
+g++ -std=c++17 -I include main.cpp src/Matrix.cpp src/SupervisedModel.cpp src/Regressor.cpp src/KNNRegressor.cpp -o KNNRegressor.exe
+
+Command 3:
+KNNRegressor.exe
